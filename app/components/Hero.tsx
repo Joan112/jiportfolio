@@ -122,7 +122,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-blue-400 dark:from-purple-600 dark:to-blue-600 rounded-3xl transform -rotate-6 opacity-50"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl h-full">
                 <Image
-                  src="/file-ANWgYBaETcnAhsT4kD4pNR.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/jiportfolio.firebasestorage.app/o/file-ANWgYBaETcnAhsT4kD4pNR.webp?alt=media&token=c38a3379-8eff-4967-a1a6-d8ce534bbe7e"
                   alt="Usman Zafar"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
