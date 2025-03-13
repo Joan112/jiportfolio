@@ -1,7 +1,7 @@
 "use client";
 
 import { GraduationCap, Calendar, Award } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 import { motion } from "framer-motion";
 
