@@ -123,7 +123,7 @@ export default function Hero() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl h-full">
                 <Image
                   src="https://firebasestorage.googleapis.com/v0/b/jiportfolio.firebasestorage.app/o/file-ANWgYBaETcnAhsT4kD4pNR.webp?alt=media&token=c38a3379-8eff-4967-a1a6-d8ce534bbe7e"
-                  alt="Usman Zafar"
+                  alt="Imagen de ejemplo"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"

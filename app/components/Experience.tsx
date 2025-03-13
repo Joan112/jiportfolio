@@ -94,7 +94,7 @@ export default function Experience() {
       <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
         <Image
           src="/placeholder.svg?height=256&width=256"
-          alt="Decorative background"
+          alt=""
           width={256}
           height={256}
         />
