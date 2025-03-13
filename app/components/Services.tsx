@@ -10,7 +10,7 @@ export default function Services() {
       icon: <Layout className="w-12 h-12 text-blue-500" />,
       title: "Desarrollo de Aplicaciones Web",
       description:
-        "En proceso de aprendizaje, mejora en el desarrollo front-end con React y Next.js. Enfocado en crear aplicaciones web con buen rendimiento y experiencia de usuario.",
+        "En proceso de aprendizaje, mejora en el desarrollo Front End con React y Next.js. Enfocado en crear aplicaciones web con buen rendimiento y experiencia de usuario.",
     },
     {
       icon: <Server className="w-12 h-12 text-green-500" />,
@@ -22,7 +22,7 @@ export default function Services() {
       icon: <Code className="w-12 h-12 text-purple-500" />,
       title: "Desarrollo de API",
       description:
-        "Diseño e implementación de APIs RESTful con arquitectura hexagonal, optimizando flujo de datos y escalabilidad.",
+        "Diseño e implementación de API RESTful con arquitectura hexagonal, optimizando flujo de datos y escalabilidad.",
     },
   ];
 

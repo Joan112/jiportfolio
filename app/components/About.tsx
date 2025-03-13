@@ -58,7 +58,7 @@ export default function About() {
               FastAPI, Node.js y MongoDB. Mi compromiso con el aprendizaje
               continuo y la colaboración en equipo me ha permitido liderar
               proyectos clave, como la modernización de la arquitectura de
-              WhatsApp para Coppel y la migración de sistemas backend, logrando
+              WhatsApp para Coppel y la migración de sistemas Back End, logrando
               mejoras significativas en rendimiento y escalabilidad.
             </p>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">

@@ -14,10 +14,10 @@ export default function Experience() {
       role: "Dev Sr (Back)",
       responsibilities: [
         "Desarrollé microservicios escalables utilizando Python y FastAPI, optimizando la gestión de datos y mejorando la eficiencia de nuestras aplicaciones.",
-        "Implementé soluciones backend robustas para el chatbot de WhatsApp.",
+        "Implementé soluciones Bbackend robustas para el chatbot de WhatsApp.",
         "Migración de datos de PostgreSQL a MongoDB, optimizando la estructura de la base de datos.",
         "Implementación de pruebas unitarias con pytest y unittest para garantizar la calidad del código.",
-        "Integracion de APIGEE para los servicios del Canales Conversacionales",
+        "Integración de APIGEE para los servicios de Canales Conversacionales",
       ],
     },
     {
