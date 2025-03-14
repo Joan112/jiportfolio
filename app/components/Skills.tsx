@@ -76,7 +76,7 @@ const skills = [
     name: "Metodologías ágiles",
     tech: "Scrum",
     description:
-      "Working efficiently in agile environments with focus on continuous delivery.",
+      "Trabajar eficientemente en entornos ágiles con foco en la entrega continua.",
     color: "text-cyan-500",
   },
 ];
