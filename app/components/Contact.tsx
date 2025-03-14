@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone, Send, Loader2 } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -102,6 +102,9 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
+            <h2>
+              actualmente, no se encuentra en funcionamiento el formulario
+            </h2>
             <form
               onSubmit={handleSubmit(onSubmit)}
               className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg"
@@ -221,14 +224,14 @@ export default function Contact() {
           </motion.div>
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
+      {/* <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
         <Image
           src="/placeholder.svg?height=256&width=256"
-          alt="Decorative background"
+          alt=" "
           width={256}
           height={256}
         />
-      </div>
+      </div> */}
     </section>
   );
 }

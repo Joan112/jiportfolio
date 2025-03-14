@@ -39,3 +39,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+firebaseConfig.ts
+hosting.b3V0.cache

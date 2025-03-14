@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Este es un proyecto [Next.js](https://nextjs.org) creado con [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Empezando
 
-First, run the development server:
+Primero, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
-# or
+# o
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puedes comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que editas el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para optimizar y cargar automáticamente [Geist](https://vercel.com/font), una nueva familia de fuentes para Vercel.
 
-## Learn More
+## Aprende Más
 
-To learn more about Next.js, take a look at the following resources:
+Para aprender más sobre Next.js, echa un vistazo a los siguientes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentación de Next.js](https://nextjs.org/docs) - aprende sobre las características y la API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Estructura del Proyecto
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+jiportfolio/
+├─ app/
+│  ├─ components/
+│  │  ├─ About.tsx - Componente que muestra información sobre el desarrollador.
+│  │  ├─ AnimatedSectionHeader.tsx - Componente para encabezados de secciones con animación.
+│  │  ├─ Contact.tsx - Componente para la sección de contacto.
+│  │  ├─ Education.tsx - Componente para la sección de educación.
+│  │  ├─ Experience.tsx - Componente para la sección de experiencia profesional.
+│  │  ├─ floating-nav.tsx - Componente para la navegación flotante.
+│  │  ├─ Header.tsx - Componente para el encabezado del sitio.
+│  │  ├─ Hero.tsx - Componente para la sección principal o hero.
+│  │  ├─ Services.tsx - Componente para la sección de servicios.
+│  │  └─ Skills.tsx - Componente para la sección de habilidades.
+│  ├─ favicon.ico - Icono del sitio.
+│  ├─ globals.css - Estilos globales del proyecto.
+│  ├─ layout.tsx - Layout principal del proyecto.
+│  └─ page.tsx - Página principal del proyecto.
+├─ components/
+│  ├─ ui/
+│  │  ├─ button.tsx - Componente de botón reutilizable.
+│  │  └─ dropdown-menu.tsx - Componente de menú desplegable.
+│  ├─ FloatingNav.tsx - Componente de navegación flotante.
+│  ├─ mode-toggle.tsx - Componente para cambiar el modo de tema (claro/oscuro).
+│  └─ theme-provider.tsx - Proveedor de tema para manejar el tema del sitio.
+├─ lib/
+│  └─ utils.ts - Funciones utilitarias.
+├─ public/
+│  ├─ file-ANWgYBaETcnAhsT4kD4pNR.png - Imagen pública.
+│  ├─ file.svg - Archivo SVG.
+│  ├─ globe.svg - Archivo SVG.
+│  ├─ next.svg - Archivo SVG.
+│  ├─ vercel.svg - Archivo SVG.
+│  └─ window.svg - Archivo SVG.
+├─ utils/
+│  ├─ firebaseConfig.ts - Configuración de Firebase.
+│  └─ smoothScroll.ts - Función para scroll suave.
+├─ .firebaserc - Configuración de Firebase.
+├─ .gitignore - Archivos y carpetas a ignorar por Git.
+├─ components.json - Configuración de componentes.
+├─ Dockerfile - Archivo de configuración para Docker.
+├─ eslint.config.mjs - Configuración de ESLint.
+├─ firebase.json - Configuración de Firebase.
+├─ next-env.d.ts - Tipos de Next.js.
+├─ next.config.ts - Configuración de Next.js.
+├─ package-lock.json - Archivo de bloqueo de dependencias.
+├─ package.json - Archivo de configuración de dependencias.
+├─ postcss.config.js - Configuración de PostCSS.
+├─ postcss.config.mjs - Configuración de PostCSS en formato MJS.
+├─ README.md - Este archivo.
+├─ tailwind.config.js - Configuración de Tailwind CSS.
+├─ tailwind.config.ts - Configuración de Tailwind CSS en TypeScript.
+└─ tsconfig.json - Configuración de TypeScript.
+```
