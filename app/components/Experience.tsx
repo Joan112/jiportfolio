@@ -1,7 +1,7 @@
 "use client";
 
 import { Briefcase, Calendar, MapPin, Globe } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 import { motion } from "framer-motion";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 
@@ -14,10 +14,10 @@ export default function Experience() {
       role: "Dev Sr (Back)",
       responsibilities: [
         "Desarrollé microservicios escalables utilizando Python y FastAPI, optimizando la gestión de datos y mejorando la eficiencia de nuestras aplicaciones.",
-        "Implementé soluciones backend robustas para el chatbot de WhatsApp.",
+        "Implementé soluciones Bbackend robustas para el chatbot de WhatsApp.",
         "Migración de datos de PostgreSQL a MongoDB, optimizando la estructura de la base de datos.",
         "Implementación de pruebas unitarias con pytest y unittest para garantizar la calidad del código.",
-        "Integracion de APIGEE para los servicios del Canales Conversacionales",
+        "Integración de APIGEE para los servicios de Canales Conversacionales",
       ],
     },
     {
@@ -41,7 +41,7 @@ export default function Experience() {
       className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-indigo-900 transition-colors duration-300 overflow-hidden relative"
     >
       <div className="container mx-auto px-6 relative z-10">
-        <AnimatedSectionHeader title="Experiencia Profecianal" />
+        <AnimatedSectionHeader title="Experiencia Profesional" />
         <div className="space-y-16">
           {experiences.map((exp, index) => (
             <motion.div
@@ -91,14 +91,14 @@ export default function Experience() {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
+      {/* <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
         <Image
           src="/placeholder.svg?height=256&width=256"
-          alt="Decorative background"
+          alt=""
           width={256}
           height={256}
         />
-      </div>
+      </div> */}
     </section>
   );
 }

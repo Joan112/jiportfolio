@@ -68,9 +68,10 @@ export default function Hero() {
               Backend Developer | Soluciones Backend a medida con Python
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
-              Nos especializamos en el desarrollo de soluciones backend robustas
-              y escalables utilizando Python, FastAPI y Node.js. Con experiencia
-              en la optimización de bases de datos y la migración de sistemas
+              Nos especializamos en el desarrollo de soluciones back-end
+              robustas y escalables utilizando Python, FastAPI y Node.js. Con
+              experiencia en la optimización de bases de datos y la migración de
+              sistemas
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
@@ -121,8 +122,8 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-blue-400 dark:from-purple-600 dark:to-blue-600 rounded-3xl transform -rotate-6 opacity-50"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl h-full">
                 <Image
-                  src="/file-ANWgYBaETcnAhsT4kD4pNR.webp"
-                  alt="Usman Zafar"
+                  src="https://firebasestorage.googleapis.com/v0/b/jiportfolio.firebasestorage.app/o/file-ANWgYBaETcnAhsT4kD4pNR.webp?alt=media&token=c38a3379-8eff-4967-a1a6-d8ce534bbe7e"
+                  alt="Imagen de ejemplo"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"

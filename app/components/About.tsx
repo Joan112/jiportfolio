@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Code, Database, Server, Zap } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function About() {
   const skills = [
@@ -58,7 +58,7 @@ export default function About() {
               FastAPI, Node.js y MongoDB. Mi compromiso con el aprendizaje
               continuo y la colaboración en equipo me ha permitido liderar
               proyectos clave, como la modernización de la arquitectura de
-              WhatsApp para Coppel y la migración de sistemas backend, logrando
+              WhatsApp para Coppel y la migración de sistemas Back End, logrando
               mejoras significativas en rendimiento y escalabilidad.
             </p>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -91,14 +91,14 @@ export default function About() {
           </motion.div>
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
+      {/* <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
         <Image
           src="/placeholder.svg?height=256&width=256"
-          alt="Decorative background"
+          alt=""
           width={256}
           height={256}
         />
-      </div>
+      </div> */}
     </section>
   );
 }
